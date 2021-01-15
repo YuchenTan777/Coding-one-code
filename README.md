@@ -16,5 +16,12 @@ In fact, Delaunay triangulation is not an algorithm, but a definition of a **"go
 ![image](https://github.com/YuchenTan777/Codingone-Projectcode/blob/main/picture/del_tri.gif)
 ![image](https://github.com/YuchenTan777/Codingone-Projectcode/blob/main/picture/720px-Delaunay_Triangulation_(100_Points).svg.png)
 
-Before Delaunay triangulation, Sobel edge detection algorithm is used to obtain the edges of the image, and then randomly generate points on the edges. 
-Edge detection is a very important image feature extraction method in the field of computer vision, and is likewise a relatively well used feature extraction method. We use edge detection is to find the set of pixel points in the image where the pixel brightness changes dramatically, and usually these sets are often shown as contours.
+### Sobel edge detection
+Before Delaunay triangulation, **Sobel edge detection algorithm** is used to obtain the edges of the image, and then randomly generate points on the edges. 
+Edge detection is a very important image feature extraction method in the field of computer vision, and is likewise a relatively well used feature extraction method. We use edge detection is to find the set of pixel points in the image where the pixel **brightness changes** dramatically, and usually these sets are often shown as contours.
+
+### Coloring
+After the first two key steps, we take a simpler approach to coloring - using the color at the center of each triangle as the color of the triangle. The calculation of the center position is very simple, just average the positions of the three vertices and you're done
+
+## Work Flow
+![image](https://github.com/YuchenTan777/Codingone-Projectcode/blob/main/picture/flow.jpg)
