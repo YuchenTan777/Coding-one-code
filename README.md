@@ -9,3 +9,5 @@ To achieve the visual effect of low poly, we first need to divide the multiple c
 ![image](https://github.com/YuchenTan777/Codingone-Projectcode/blob/main/picture/pic%201.png)
 
 ## How to achieve it by code
+
+Theoretically, Low Poly is actually a polygon **triangulation method**. The triangulation method I use here is **Delaunay Triangulation**.
