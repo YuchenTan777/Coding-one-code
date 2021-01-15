@@ -6,7 +6,7 @@ Low Poly, in fact, is made up of a **triangular grid of shapes** that alternate 
 
 To achieve the visual effect of Low Poly, we first need to divide the multiple color elements in the form of triangles, and the color of each small triangle comes from the corresponding position of the original color element. Then the triangles are spaced and colored, that is, filled with pure color, and the three-dimensional effect is formed by the contrast of color shades and shadows.
 
-The reason for wanting to make the images in this style came from a love for the game *Monument Valley*. I think this visual style is very beautiful and regular and has an algorithmic beauty. So I wonder if there is a code that can help me make the image into this geometric style. In fact, it was a bit difficult for me to create 3D images, so I started with 2
+The reason for wanting to make the images in this style came from a love for the game *Monument Valley*. I think this visual style is very beautiful and regular and has an algorithmic beauty. So I wonder if there is a code that can help me make the image into this geometric style. In fact, it was a bit difficult for me to create 3D images, so I started with 2D.
 
 ![image](https://github.com/YuchenTan777/Codingone-Projectcode/blob/main/picture/pic%201.png)
 
