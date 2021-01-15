@@ -10,6 +10,11 @@ To achieve the visual effect of Low Poly, we first need to divide the multiple c
 
 ## How to achieve it by code
 
+### Delaunay triangulation
 Theoretically, Low Poly is actually a polygon **triangulation method**. The triangulation method I use here is **Delaunay Triangulation**.
 In fact, Delaunay triangulation is not an algorithm, but a definition of a **"good" triangular mesh**. Its excellent properties are the null circle property and the maximizing minimum angle property, which avoid the generation of **narrow triangles** and make Delaunay triangulation widely used.
 ![image](https://github.com/YuchenTan777/Codingone-Projectcode/blob/main/picture/del_tri.gif)
+![image](https://github.com/YuchenTan777/Codingone-Projectcode/blob/main/picture/720px-Delaunay_Triangulation_(100_Points).svg.png)
+
+Before Delaunay triangulation, Sobel edge detection algorithm is used to obtain the edges of the image, and then randomly generate points on the edges. 
+Edge detection is a very important image feature extraction method in the field of computer vision, and is likewise a relatively well used feature extraction method. We use edge detection is to find the set of pixel points in the image where the pixel brightness changes dramatically, and usually these sets are often shown as contours.
