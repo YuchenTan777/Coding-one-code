@@ -1,6 +1,6 @@
 # Coding-one-code
 
-## WHAT IS LOWPOLY
+## WHAT IS LOWPOLY 🧡💛💚💙💜🖤🤍🤎
 
 Low Poly, in fact, is made up of a triangular grid of shapes that alternate with each other to form folds and then form new geometric shapes. The sharp edges and abstract shapes of the polygons are very reminiscent of computer games from the 90s, in a retro style. When Low poly contains more triangles or polymorphs, it gives a more realistic and rather futuristic feel.
 
@@ -8,3 +8,4 @@ To achieve the visual effect of low poly, we first need to divide the multiple c
 
 ![image](https://github.com/YuchenTan777/Codingone-Projectcode/blob/main/picture/re-1.png)
 
+## How to achieve it by code
