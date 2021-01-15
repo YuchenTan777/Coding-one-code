@@ -25,3 +25,6 @@ After the first two key steps, we take a simpler approach to coloring - using th
 
 ## Work Flow
 ![image](https://github.com/YuchenTan777/Codingone-Projectcode/blob/main/picture/flow.jpg)
+
+## TRY IT!💗
+https://mimicproject.com/code/929601bf-e8b6-0f10-d32c-41e96c9ebc21
